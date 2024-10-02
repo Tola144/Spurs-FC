@@ -54,31 +54,35 @@ p{
 }
 
 .card10{
-    background-image: url(img/pic2.jpg);
+    background-image: url(img/kit1.jpeg);
 }
 
 .card11{
-    background-image: url(img/pic15.jpg);
+    background-image: url(img/kit3.jpg);
 }
 
 .card12{
-    background-image: url(img/pic11.jpg);
+    background-image: url(img/scarf.jpg);
 }
 
 .card13{
-    background-image: url(img/pic11.jpg);
+    background-image: url(img/cap.jpg);
 }
 
 .card14{
-    background-image: url(img/pic10.jpg);
+    background-image: url(img/bag1.jpg);
 }
 
 .card15{
-    background-image: url(img/pic9.jpg);
+    background-image: url(img/bag1.jpg);
 }
 
 .card1{
     background-image: url(img/pic3.jpg);
+}
+
+.card16{
+    background-image: url(img/tickets.webp);
 }
 
 .card2{

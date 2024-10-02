@@ -99,24 +99,100 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <style>
+        .container-about{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f1f1f1;   
+        }
+
+        .about-section {
+            background: url(img/image6.jpeg) no-repeat left;
+            background-size: 55%;
+            background-color: #fdfdfd;
+            overflow: hidden;
+            padding: 100px 0;
+        }
+
+        .inner-container{
+            width: 55%;
+            float: right;
+            background-color: #132257;
+            padding: 150px;
+        }
+
+        .inner-container h1{
+            margin-top: 30px;
+            font-size: 30px;
+            font-weight: 900;
+            color: #f1f1f1;
+        }
+
+        .text{
+            font-size: 13px;
+            line-height: 30px;
+            text-align: justify;
+            margin-bottom: 40px;
+        }
+
+        .details{
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+            font-size: 13px;
+        }
+
+        @media screen and (max-width:1200px){
+            .inner-container{
+                padding: 80px;
+            }
+        }
+
+        @media screen and (max-width:1000px){
+            .about-section{
+                background-size: 100%;
+                padding: 100px 40px;
+            }
+            .inner-container{
+                padding: 80px;
+            }
+        }
+    </style>
 </head>
 <body>
-   
-    <div class="home-container">
-        <nav>
-            <h2><span style="color: #ffff;">Tottenham</span> <span>Hotspur</span> </h2>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="market.html">Marketplace</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="registration.html">Registration</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+   <div class="container-about">
+    <div class="about-section">
+        <div class="inner-container">
+            <h1>About Us</h1>
+            <p class="text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Similique quos ea animi, excepturi recusandae cum, 
+                debitis libero nostrum est voluptate, quod odit veritatis
+                 ipsum eius ullam dolorum
+                 corporis officiis hic?
+                 Lorem, ipsum dolor sit amet consectetur 
+                 adipisicing elit. 
+                 Nisi consectetur ex dolorum nobis expedita 
+                 possimus maiores illum perferendis ullam sequi quae 
+                 delectus deserunt ducimus repudiandae,
+                  magnam unde assumenda aut hic.
+            </p>
+    
+            <div class="details">
+                <strong>lorem</strong>
+                <strong>lorem</strong>
+                <strong>lorem</strong>
+            </div>
+        </div>
+       </div>
+    
+    
+    
+   </div>
 
-       
-   
 
 
 
@@ -128,7 +204,13 @@
 
 
 
-    </div>
+
+
+
+
+
+
+
 
 
 <!-- footer -->
